@@ -69,8 +69,6 @@ def main():
     k, n = input_k_n()
     string = string_input()
 
-
-
     words = get_list(string)
     words_amount = get_amount_of_words(words)
 
@@ -83,7 +81,6 @@ def main():
     print("Median words amount: " + str(median_words_amount))
     n_grams = get_ngrams(words, string, n)
     show_top_ngrams(n_grams, k)
-
 
 
 if __name__ == '__main__':

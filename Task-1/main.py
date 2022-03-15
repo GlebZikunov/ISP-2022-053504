@@ -10,8 +10,10 @@ def string_input():
 def input_k_n():
     k = input("Input k: ")
     n = input("Input n: ")
-    if (k == "" and n == ""):
+    if k == "":
         k = 10
+
+    if n == "":
         n = 4
 
     k = int(k)
